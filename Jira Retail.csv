@@ -1,0 +1,768 @@
+Summary,Issue key,Issue id,Issue Type,Status,Project key,Project name,Project type,Project lead,Project lead id,Project description,Priority,Resolution,Assignee,Assignee Id,Reporter,Reporter Id,Creator,Creator Id,Created,Updated,Last Viewed,Resolved,Due date,Votes,Description,Environment,Watchers,Watchers Id,Original estimate,Remaining Estimate,Time Spent,Work Ratio,Σ Original Estimate,Σ Remaining Estimate,Σ Time Spent,Security Level,Outward issue link (Blocks),Outward issue link (Blocks),Outward issue link (Relates),Outward issue link (Relates),Outward issue link (Relates),Outward issue link (Relates),Outward issue link (Relates),Outward issue link (Relates),Outward issue link (Relates),Attachment,Custom field (Actual end),Custom field (Actual start),Custom field (Change reason),Custom field (Change risk),Custom field (Change type),Custom field (Development),Custom field (Epic Color),Custom field (Epic Link),Custom field (Epic Name),Custom field (Epic Status),Custom field (Impact),Custom field (Issue color),Custom field (Rank),Custom field (Request Type),Sprint,Custom field (Start date),Custom field (Story Points),Custom field (Story point estimate),Custom field (Target end),Custom field (Target start),Custom field (Team),Custom field ([CHART] Date of First Response),Status Category
+It should not accept AlphaNumeric as valid input.,RET-142,10239,Bug,To Do,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,,,,Rajat Das,620b325df4d8af0070fca320,Rajat Das,620b325df4d8af0070fca320,18/Feb/22 1:48 PM,18/Feb/22 3:56 PM,18/Feb/22 1:48 PM,,,0,,,Rajat Das,620b325df4d8af0070fca320,,,,,,,,,,,RET-87,,,,,,,,,,,,,{},,,,,,,0|i001gf:,,RET Sprint 2,,,,,,,,To Do
+It should not accept Special Character as valid input.,RET-141,10238,Bug,To Do,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,,,,Rajat Das,620b325df4d8af0070fca320,Rajat Das,620b325df4d8af0070fca320,18/Feb/22 1:43 PM,18/Feb/22 4:00 PM,18/Feb/22 1:44 PM,,,0,"Steps To Reproduce
+
+# Navigate to the Retail Website.
+# Click on Coupon under Marketing Section.
+# The Plus '+' Icon. / The Edit Button.
+# Enter Special Character as input.
+
+Expected Result
+
+# It should not accept Special Character
+
+Actual Result
+
+It accepts.
+
+Screenshot
+
+!image-20220218-103017.png|width=465,height=85!",,Rajat Das,620b325df4d8af0070fca320,,,,,,,,,,,RET-80,RET-85,,,,,,18/Feb/22 4:00 PM;ug:03f44e7f-288d-4758-8be1-ab7cb4280380;image-20220218-103017.png;https://ibmhaldia6.atlassian.net/secure/attachment/10004/image-20220218-103017.png,,,,,,{},,,,,,,0|i001g7:,,RET Sprint 2,,,,,,,,To Do
+It should not accept Alphabets as valid input.,RET-140,10237,Bug,To Do,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,,,,Rajat Das,620b325df4d8af0070fca320,Rajat Das,620b325df4d8af0070fca320,18/Feb/22 1:33 PM,18/Feb/22 3:55 PM,18/Feb/22 1:38 PM,,,0,,,Rajat Das,620b325df4d8af0070fca320,,,,,,,,,,,RET-81,RET-86,,,,,,,,,,,,{},,,,,,,0|i001fz:,,RET Sprint 2,,,,,,,,To Do
+More than 5 digits not accepted.,RET-139,10236,Bug,To Do,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,,,,Rajat Das,620b325df4d8af0070fca320,Rajat Das,620b325df4d8af0070fca320,18/Feb/22 1:32 PM,18/Feb/22 3:56 PM,18/Feb/22 1:38 PM,,,0,It should not take More than 5 digits as valid input.,,Rajat Das,620b325df4d8af0070fca320,,,,,,,,,,,RET-45,,,,,,,,,,,,,{},,,,,,,0|i001fr:,,RET Sprint 2,,,,,,,,To Do
+More than 8 digits are not accepted,RET-138,10235,Bug,To Do,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,,,,Rajat Das,620b325df4d8af0070fca320,Rajat Das,620b325df4d8af0070fca320,18/Feb/22 1:12 PM,18/Feb/22 3:56 PM,18/Feb/22 1:37 PM,,,0,It should not accept more than 8 digits.,,Rajat Das,620b325df4d8af0070fca320,,,,,,,,,,,RET-51,,,,,,,,,,,,,{},,,,,,,0|i001fj:,,RET Sprint 2,,,,,,,,To Do
+Invalid Date Format,RET-137,10234,Bug,To Do,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,,,,Rajat Das,620b325df4d8af0070fca320,Rajat Das,620b325df4d8af0070fca320,18/Feb/22 1:10 PM,18/Feb/22 3:56 PM,18/Feb/22 1:37 PM,,,0,"It should show the validation message ""Invalid Date Format"".",,Rajat Das,620b325df4d8af0070fca320,,,,,,,,,,,RET-72,,,,,,,,,,,,,{},,,,,,,0|i001fb:,,RET Sprint 2,,,,,,,,To Do
+Date Start value can not be later than Date End value.,RET-136,10233,Bug,To Do,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,,,,Rajat Das,620b325df4d8af0070fca320,Rajat Das,620b325df4d8af0070fca320,18/Feb/22 12:56 PM,18/Feb/22 3:55 PM,18/Feb/22 1:36 PM,,,0,It should show validation message saying date start value can not be later than date end value.,,Rajat Das,620b325df4d8af0070fca320,,,,,,,,,RET-79,,RET-78,,,,,,,,,,,,,{},,,,,,,0|i001f3:,,RET Sprint 2,,,,,,,,To Do
+Half String not accepting,RET-135,10232,Bug,To Do,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,,,,Rajat Das,620b325df4d8af0070fca320,Rajat Das,620b325df4d8af0070fca320,18/Feb/22 12:42 PM,18/Feb/22 3:55 PM,18/Feb/22 3:48 PM,,,0,"Steps To Reproduce
+
+# Navigate to the Retail Website.
+# Click on Report Section
+Click on Orders under Customer Section.
+# Enter fist name for any Recorded Record.
+
+Expected Result
+
+# It should show The Results containg the word searched.
+
+Actual Result
+
+Nothing shows.
+
+Screenshot
+
+!image-20220218-102234.png|width=1415,height=365!",,Rajat Das,620b325df4d8af0070fca320,,,,,,,,,,,RET-115,,,,,,,18/Feb/22 3:52 PM;ug:03f44e7f-288d-4758-8be1-ab7cb4280380;image-20220218-102234.png;https://ibmhaldia6.atlassian.net/secure/attachment/10003/image-20220218-102234.png,,,,,,{},,,,,,,0|i001ev:,,RET Sprint 2,,,,,,,,To Do
+Verify the Go Back Button.,RET-134,10231,Test,Done,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,Done,,,Rajat Das,620b325df4d8af0070fca320,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 11:38 AM,18/Feb/22 3:44 PM,21/Feb/22 10:05 AM,18/Feb/22 3:44 PM,,0,It should navigate to the Customer order report Filter Section.,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,RET-15,,,,,,,,,,,,,{},,,,,,,0|i001en:,,RET Sprint 2,,,,,,,,Done
+Verify the Save Button.,RET-133,10230,Test,Done,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,Done,,,Rajat Das,620b325df4d8af0070fca320,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 11:38 AM,18/Feb/22 3:44 PM,21/Feb/22 10:05 AM,18/Feb/22 3:44 PM,,0,It Should Save the Customer order report.,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,RET-15,,,,,,,,,,,,,{},,,,,,,0|i001ef:,,RET Sprint 2,,,,,,,,Done
+Verify the Mandatory Fields in Customer Order Report Edit Section.,RET-132,10229,Test,Done,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,Done,,,Rajat Das,620b325df4d8af0070fca320,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 11:38 AM,18/Feb/22 3:44 PM,21/Feb/22 10:05 AM,18/Feb/22 3:44 PM,,0,"The Mandatory Fields are 
+
+1. First Name
+
+2. Last Name
+
+3. E-Mail
+
+4. Telephone
+
+5. Password
+
+6. Confirm Password",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,RET-15,,,,,,,,,,,,,{},,,,,,,0|i001e7:,,RET Sprint 2,,,,,,,,Done
+Verify the Edit Option.,RET-131,10228,Test,Done,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,Done,,,Rajat Das,620b325df4d8af0070fca320,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 11:38 AM,18/Feb/22 3:44 PM,21/Feb/22 10:05 AM,18/Feb/22 3:44 PM,,0,It should Navigate to the relevant customer order report Edit Page.,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,RET-15,,,,,,,,,,,,,{},,,,,,,0|i001dz:,,RET Sprint 2,,,,,,,,Done
+Verify that the Menu is accessible from the Customer Order Report Section.,RET-130,10227,Test,Done,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,Done,,,Rajat Das,620b325df4d8af0070fca320,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 11:37 AM,18/Feb/22 3:44 PM,21/Feb/22 10:05 AM,18/Feb/22 3:44 PM,,0,It should be accessible.,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,RET-15,,,,,,,,,,,,,{},,,,,,,0|i001dr:,,RET Sprint 2,,,,,,,,Done
+Verify the Pagination that it's written Total number of records and pages.,RET-129,10226,Test,Done,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,Done,,,Rajat Das,620b325df4d8af0070fca320,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 11:37 AM,18/Feb/22 3:44 PM,21/Feb/22 10:05 AM,18/Feb/22 3:44 PM,,0,It should have a list of  Records.,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,RET-15,,,,,,,,,,,,,{},,,,,,,0|i001dj:,,RET Sprint 2,,,,,,,,Done
+Verify the Pagination when the Order Records are more than 25.,RET-128,10225,Test,Done,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,Done,,,Rajat Das,620b325df4d8af0070fca320,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 11:37 AM,18/Feb/22 3:44 PM,21/Feb/22 10:05 AM,18/Feb/22 3:44 PM,,0,It should have a list of  Records.,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,RET-15,,,,,,,,,,,,,{},,,,,,,0|i001db:,,RET Sprint 2,,,,,,,,Done
+"Verify the Page Crumb ""Home"".",RET-127,10224,Test,Done,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,Done,,,Rajat Das,620b325df4d8af0070fca320,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 11:37 AM,18/Feb/22 3:44 PM,21/Feb/22 10:05 AM,18/Feb/22 3:44 PM,,0,It should navigate to the Dashboard Section.,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,RET-15,,,,,,,,,,,,,{},,,,,,,0|i001d3:,,RET Sprint 2,,,,,,,,Done
+"Verify the Page Crumb ""Customer Order Report"".",RET-126,10223,Test,Done,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,Done,,,Rajat Das,620b325df4d8af0070fca320,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 11:37 AM,18/Feb/22 3:44 PM,21/Feb/22 10:05 AM,18/Feb/22 3:44 PM,,0,It should navigate to the Customer Order Report Section.,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,RET-15,,,,,,,,,,,,,{},,,,,,,0|i001cv:,,RET Sprint 2,,,,,,,,Done
+Verify the Filter Button.,RET-125,10222,Test,Done,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,Done,,,Rajat Das,620b325df4d8af0070fca320,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 11:37 AM,18/Feb/22 3:44 PM,21/Feb/22 10:05 AM,18/Feb/22 3:44 PM,,0,It should Filter out all the matching Results as per Input.,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,RET-15,,,,,,,,,,,,,{},,,,,,,0|i001cn:,,RET Sprint 2,,,,,,,,Done
+Verify Order Statuses Field's type.,RET-124,10221,Test,Done,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,Done,,,Rajat Das,620b325df4d8af0070fca320,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 11:37 AM,18/Feb/22 3:44 PM,21/Feb/22 10:05 AM,18/Feb/22 3:44 PM,,0,"Acceptance Criteria :-
+
+1. It's Type Should be a Drop Down List.
+2. It Should contain All options as per SRS..
+3. Only One Option Should Select.
+4. It should be ""All Statuses"" by Default.",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,RET-15,,,,,,,,,,,,,{},,,,,,,0|i001cf:,,RET Sprint 2,,,,,,,,Done
+Verify the Order Statuses Field with more than one Option.,RET-123,10220,Test,Done,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,Done,,,Rajat Das,620b325df4d8af0070fca320,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 11:37 AM,18/Feb/22 3:44 PM,21/Feb/22 10:05 AM,18/Feb/22 3:44 PM,,0,"Acceptance Criteria :-
+
+1. It's Type Should be a Drop Down List.
+2. It Should contain All options as per SRS..
+3. Only One Option Should Select.
+4. It should be ""All Statuses"" by Default.",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,RET-15,,,,,,,,,,,,,{},,,,,,,0|i001c7:,,RET Sprint 2,,,,,,,,Done
+Verify that the Order Statuses Field's all options can be accessible.,RET-122,10219,Test,Done,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,Done,,,Rajat Das,620b325df4d8af0070fca320,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 11:37 AM,18/Feb/22 3:44 PM,21/Feb/22 10:05 AM,18/Feb/22 3:44 PM,,0,"Acceptance Criteria :-
+
+1. It's Type Should be a Drop Down List.
+2. It Should contain All options as per SRS..
+3. Only One Option Should Select.
+4. It should be ""All Statuses"" by Default.",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,RET-15,,,,,,,,,,,,,{},,,,,,,0|i001bz:,,RET Sprint 2,,,,,,,,Done
+Verify the Order Statuses Field has all the value as per SRS.,RET-121,10218,Test,Done,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,Done,,,Rajat Das,620b325df4d8af0070fca320,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 11:37 AM,18/Feb/22 3:44 PM,21/Feb/22 10:05 AM,18/Feb/22 3:44 PM,,0,"Acceptance Criteria :-
+
+1. It's Type Should be a Drop Down List.
+2. It Should contain All options as per SRS..
+3. Only One Option Should Select.
+4. It should be ""All Statuses"" by Default.",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,RET-15,,,,,,,,,,,,,{},,,,,,,0|i001br:,,RET Sprint 2,,,,,,,,Done
+Verify the Order Statuses Field's Placeholder.,RET-120,10217,Test,Done,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,Done,,,Rajat Das,620b325df4d8af0070fca320,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 11:37 AM,18/Feb/22 3:44 PM,21/Feb/22 10:05 AM,18/Feb/22 3:44 PM,,0,"Acceptance Criteria :-
+
+1. It's Type Should be a Drop Down List.
+2. It Should contain All options as per SRS..
+3. Only One Option Should Select.
+4. It should be ""All Statuses"" by Default.",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,RET-15,,,,,,,,,,,,,{},,,,,,,0|i001bj:,,RET Sprint 2,,,,,,,,Done
+Verify the Customer Field Case Sensitivity.,RET-119,10216,Test,Done,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,Done,,,Rajat Das,620b325df4d8af0070fca320,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 11:37 AM,18/Feb/22 3:44 PM,21/Feb/22 10:05 AM,18/Feb/22 3:44 PM,,0,It should Filter out all the matching Results as per Input inspite of Case.,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,RET-15,,,,,,,,,,,,,{},,,,,,,0|i001bb:,,RET Sprint 2,,,,,,,,Done
+Verify the Customer Field's Placeholder.,RET-118,10215,Test,Done,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,Done,,,Rajat Das,620b325df4d8af0070fca320,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 11:37 AM,18/Feb/22 3:44 PM,21/Feb/22 10:05 AM,18/Feb/22 3:44 PM,,0,"Acceptance Criteria :-
+
+1. It should be valid data from Records.
+2. Numeric Value not allowed.
+3. No Special Character allowed.
+4. It will show all the result matching the input data.
+5. White Spaces also Not Allowed.
+6. It will have a Placeholder ""Customer"".",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,RET-15,,,,,,,,,,,,,{},,,,,,,0|i001b3:,,RET Sprint 2,,,,,,,,Done
+Verify the Customer Field with only Numeric Character.,RET-117,10214,Test,Done,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,Done,,,Rajat Das,620b325df4d8af0070fca320,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 11:37 AM,18/Feb/22 3:44 PM,21/Feb/22 10:05 AM,18/Feb/22 3:44 PM,,0,"Acceptance Criteria :-
+
+1. It should be valid data from Records.
+2. Numeric Value not allowed.
+3. No Special Character allowed.
+4. It will show all the result matching the input data.
+5. White Spaces also Not Allowed.
+6. It will have a Placeholder ""Customer"".",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,RET-15,,,,,,,,,,,,,{},,,,,,,0|i001av:,,RET Sprint 2,,,,,,,,Done
+Verify the Customer Field with Special Characters.,RET-116,10213,Test,Done,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,Done,,,Rajat Das,620b325df4d8af0070fca320,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 11:37 AM,18/Feb/22 3:44 PM,21/Feb/22 10:05 AM,18/Feb/22 3:44 PM,,0,"Acceptance Criteria :-
+
+1. It should be valid data from Records.
+2. Numeric Value not allowed.
+3. No Special Character allowed.
+4. It will show all the result matching the input data.
+5. White Spaces also Not Allowed.
+6. It will have a Placeholder ""Customer"".",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,RET-15,,,,,,,,,,,,,{},,,,,,,0|i001an:,,RET Sprint 2,,,,,,,,Done
+Verify the Customer Field with first name.,RET-115,10212,Test,Blocked,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,,,,Rajat Das,620b325df4d8af0070fca320,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 11:37 AM,18/Feb/22 3:42 PM,21/Feb/22 10:05 AM,,,0,"Acceptance Criteria :-
+
+1. It should be valid data from Records.
+2. Numeric Value not allowed.
+3. No Special Character allowed.
+4. It will show all the result matching the input data.
+5. White Spaces also Not Allowed.
+6. It will have a Placeholder ""Customer"".",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,RET-15,,,,,,,,,,,,,{},,,,,,,0|i001af:,,RET Sprint 2,,,,,,,,In Progress
+Verify the Customer Field with invalid data.,RET-114,10211,Test,Done,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,Done,,,Rajat Das,620b325df4d8af0070fca320,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 11:37 AM,18/Feb/22 3:44 PM,21/Feb/22 10:05 AM,18/Feb/22 3:44 PM,,0,"Acceptance Criteria :-
+
+1. It should be valid data from Records.
+2. Numeric Value not allowed.
+3. No Special Character allowed.
+4. It will show all the result matching the input data.
+5. White Spaces also Not Allowed.
+6. It will have a Placeholder ""Customer"".",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,RET-15,,,,,,,,,,,,,{},,,,,,,0|i001a7:,,RET Sprint 2,,,,,,,,Done
+Verify the Customer Field with valid data.,RET-113,10210,Test,Done,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,Done,,,Rajat Das,620b325df4d8af0070fca320,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 11:37 AM,18/Feb/22 3:44 PM,21/Feb/22 10:05 AM,18/Feb/22 3:44 PM,,0,"Acceptance Criteria :-
+
+1. It should be valid data from Records.
+2. Numeric Value not allowed.
+3. No Special Character allowed.
+4. It will show all the result matching the input data.
+5. White Spaces also Not Allowed.
+6. It will have a Placeholder ""Customer"".",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,RET-15,,,,,,,,,,,,,{},,,,,,,0|i0019z:,,RET Sprint 2,,,,,,,,Done
+Verify the Customer Field with Blank Value.,RET-112,10209,Test,Done,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,Done,,,Rajat Das,620b325df4d8af0070fca320,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 11:37 AM,18/Feb/22 3:44 PM,21/Feb/22 10:05 AM,18/Feb/22 3:44 PM,,0,"Acceptance Criteria :-
+
+1. It should be valid data from Records.
+2. Numeric Value not allowed.
+3. No Special Character allowed.
+4. It will show all the result matching the input data.
+5. White Spaces also Not Allowed.
+6. It will have a Placeholder ""Customer"".",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,RET-15,,,,,,,,,,,,,{},,,,,,,0|i0019r:,,RET Sprint 2,,,,,,,,Done
+Verify the Customer Field with White Space.,RET-111,10208,Test,Done,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,Done,,,Rajat Das,620b325df4d8af0070fca320,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 11:37 AM,18/Feb/22 3:44 PM,21/Feb/22 10:05 AM,18/Feb/22 3:44 PM,,0,"Acceptance Criteria :-
+
+1. It should be valid data from Records.
+2. Numeric Value not allowed.
+3. No Special Character allowed.
+4. It will show all the result matching the input data.
+5. White Spaces also Not Allowed.
+6. It will have a Placeholder ""Customer"".",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,RET-15,,,,,,,,,,,,,{},,,,,,,0|i0019j:,,RET Sprint 2,,,,,,,,Done
+Verify the Date End Field with a value earlier than Date Start.,RET-110,10207,Test,Done,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,Done,,,Rajat Das,620b325df4d8af0070fca320,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 11:37 AM,18/Feb/22 3:44 PM,21/Feb/22 10:05 AM,18/Feb/22 3:44 PM,,0,"Acceptance Criteria :-
+
+1. It's Field Type Should be a Date.
+2. It Should only accept in YYYY-MM-DD format.
+3. It should have a calendar beside it.
+4."" Date Start"" should be before than ""Date End"".
+5. ""Date End"" It's value should be before ""Date Start"".",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,RET-15,,,,,,,,,,,,,{},,,,,,,0|i0019b:,,RET Sprint 2,,,,,,,,Done
+Verify the Date Start Field with a value later than Date End.,RET-109,10206,Test,Done,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,Done,,,Rajat Das,620b325df4d8af0070fca320,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 11:37 AM,18/Feb/22 3:44 PM,21/Feb/22 10:05 AM,18/Feb/22 3:44 PM,,0,"Acceptance Criteria :-
+
+1. It's Field Type Should be a Date.
+2. It Should only accept in YYYY-MM-DD format.
+3. It should have a calendar beside it.
+4."" Date Start"" should be before than ""Date End"".
+5. ""Date End"" It's value should be before ""Date Start"".",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,RET-15,,,,,,,,,,,,,{},,,,,,,0|i00193:,,RET Sprint 2,,,,,,,,Done
+Verify that Date Start value is earlier than Date End.,RET-108,10205,Test,Done,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,Done,,,Rajat Das,620b325df4d8af0070fca320,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 11:37 AM,18/Feb/22 3:44 PM,21/Feb/22 10:05 AM,18/Feb/22 3:44 PM,,0,"Acceptance Criteria :-
+
+1. It's Field Type Should be a Date.
+2. It Should only accept in YYYY-MM-DD format.
+3. It should have a calendar beside it.
+4."" Date Start"" should be before than ""Date End"".
+5. ""Date End"" It's value should be before ""Date Start"".",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,RET-15,,,,,,,,,,,,,{},,,,,,,0|i0018v:,,RET Sprint 2,,,,,,,,Done
+Verify the Date End Field has a calender beside it.,RET-107,10204,Test,Done,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,Done,,,Rajat Das,620b325df4d8af0070fca320,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 11:37 AM,18/Feb/22 3:44 PM,21/Feb/22 10:05 AM,18/Feb/22 3:44 PM,,0,"Acceptance Criteria :-
+
+1. It's Field Type Should be a Date.
+2. It Should only accept in YYYY-MM-DD format.
+3. It should have a calendar beside it.
+4. It should have a Placeholder ""Date End"".
+5. It's value should be before ""Date Start"".",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,RET-15,,,,,,,,,,,,,{},,,,,,,0|i0018n:,,RET Sprint 2,,,,,,,,Done
+Verify that Date End Field with invalid date format.,RET-106,10203,Test,Done,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,Done,,,Rajat Das,620b325df4d8af0070fca320,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 11:37 AM,18/Feb/22 3:44 PM,21/Feb/22 10:05 AM,18/Feb/22 3:44 PM,,0,"Acceptance Criteria :-
+
+1. It's Field Type Should be a Date.
+2. It Should only accept in YYYY-MM-DD format.
+3. It should have a calendar beside it.
+4. It should have a Placeholder ""Date End"".
+5. It's value should be before ""Date Start"".",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,RET-15,,,,,,,,,,,,,{},,,,,,,0|i0018f:,,RET Sprint 2,,,,,,,,Done
+Verify the Date End Field's Type.,RET-105,10202,Test,Done,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,Done,,,Rajat Das,620b325df4d8af0070fca320,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 11:36 AM,18/Feb/22 3:44 PM,21/Feb/22 10:05 AM,18/Feb/22 3:44 PM,,0,"Acceptance Criteria :-
+
+1. It's Field Type Should be a Date.
+2. It Should only accept in YYYY-MM-DD format.
+3. It should have a calendar beside it.
+4. It should have a Placeholder ""Date End"".
+5. It's value should be before ""Date Start"".",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,RET-15,,,,,,,,,,,,,{},,,,,,,0|i00187:,,RET Sprint 2,,,,,,,,Done
+Verify the Date Start Field has a calender beside it.,RET-104,10201,Test,Done,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,Done,,,Rajat Das,620b325df4d8af0070fca320,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 11:36 AM,18/Feb/22 3:44 PM,21/Feb/22 10:05 AM,18/Feb/22 3:44 PM,,0,"Acceptance Criteria :-
+
+1. It's Field Type Should be a Date.
+2. It Should only accept in YYYY-MM-DD format.
+3. It should have a calendar beside it.
+4. It should have a Placeholder ""Date Start"".
+5. It's value should be before ""Date End"".",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,RET-15,,,,,,,,,,,,,{},,,,,,,0|i0017z:,,RET Sprint 2,,,,,,,,Done
+Verify that Date Start Field with invalid date format.,RET-103,10200,Test,Done,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,Done,,,Rajat Das,620b325df4d8af0070fca320,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 11:36 AM,18/Feb/22 3:44 PM,21/Feb/22 10:05 AM,18/Feb/22 3:44 PM,,0,"Acceptance Criteria :-
+
+1. It's Field Type Should be a Date.
+2. It Should only accept in YYYY-MM-DD format.
+3. It should have a calendar beside it.
+4. It should have a Placeholder ""Date Start"".
+5. It's value should be before ""Date End"".",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,RET-15,,,,,,,,,,,,,{},,,,,,,0|i0017r:,,RET Sprint 2,,,,,,,,Done
+Verify the Date Start Field's Type.,RET-102,10199,Test,Done,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,Done,,,Rajat Das,620b325df4d8af0070fca320,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 11:36 AM,18/Feb/22 3:44 PM,21/Feb/22 10:05 AM,18/Feb/22 3:44 PM,,0,"Acceptance Criteria :-
+
+1. It's Field Type Should be a Date.
+2. It Should only accept in YYYY-MM-DD format.
+3. It should have a calendar beside it.
+4. It should have a Placeholder ""Date Start"".
+5. It's value should be before ""Date End"".",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,RET-15,,,,,,,,,,,,,{},,,,,,,0|i0017j:,,RET Sprint 2,,,,,,,,Done
+Verify that the Menu is accessible from the Coupon Section.,RET-101,10198,Test,Done,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,Done,,,Rajat Das,620b325df4d8af0070fca320,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 10:44 AM,18/Feb/22 3:44 PM,18/Feb/22 11:23 AM,18/Feb/22 3:44 PM,,0,It should be accessible.,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,RET-16,,,,,,,,,,,,,{},,,,,,,0|i000oq:r,,RET Sprint 2,,,,,,,,Done
+Verify the Pagination that it's written Total number of records and pages.,RET-100,10197,Test,Done,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,Done,,,Rajat Das,620b325df4d8af0070fca320,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 10:44 AM,18/Feb/22 3:44 PM,21/Feb/22 10:05 AM,18/Feb/22 3:44 PM,,0,It should have a list of  Records.,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,RET-16,,,,,,,,,,,,,{},,,,,,,0|i0017b:,,RET Sprint 2,,,,,,,,Done
+Verify the Pagination when the Coupon Records are more than 25.,RET-99,10196,Test,Done,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,Done,,,Rajat Das,620b325df4d8af0070fca320,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 10:44 AM,18/Feb/22 3:44 PM,21/Feb/22 10:05 AM,18/Feb/22 3:44 PM,,0,It should have a list of  Records.,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,RET-16,,,,,,,,,,,,,{},,,,,,,0|i00173:,,RET Sprint 2,,,,,,,,Done
+"Verify the Page Crumb ""Home"".",RET-98,10195,Test,Done,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,Done,,,Rajat Das,620b325df4d8af0070fca320,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 10:44 AM,18/Feb/22 3:44 PM,21/Feb/22 10:05 AM,18/Feb/22 3:44 PM,,0,It should navigate to the Dashboard Section.,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,RET-16,,,,,,,,,,,,,{},,,,,,,0|i0016v:,,RET Sprint 2,,,,,,,,Done
+"Verify the Page Crumb ""Coupon"".",RET-97,10194,Test,Done,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,Done,,,Rajat Das,620b325df4d8af0070fca320,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 10:44 AM,18/Feb/22 3:44 PM,21/Feb/22 10:05 AM,18/Feb/22 3:44 PM,,0,It should navigate to the Coupon Section.,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,RET-16,,,,,,,,,,,,,{},,,,,,,0|i0016n:,,RET Sprint 2,,,,,,,,Done
+Verify the Go Back Button.,RET-96,10193,Test,Done,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,Done,,,Rajat Das,620b325df4d8af0070fca320,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 10:44 AM,18/Feb/22 3:44 PM,21/Feb/22 10:05 AM,18/Feb/22 3:44 PM,,0,It should navigate to the Coupon Section.,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,RET-16,,,,,,,,,,,,,{},,,,,,,0|i0016f:,,RET Sprint 2,,,,,,,,Done
+Verify the Save Button.,RET-95,10192,Test,Done,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,Done,,,Rajat Das,620b325df4d8af0070fca320,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 10:44 AM,18/Feb/22 3:44 PM,21/Feb/22 10:05 AM,18/Feb/22 3:44 PM,,0,It Should Save the Coupon.,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,RET-16,,,,,,,,,,,,,{},,,,,,,0|i00167:,,RET Sprint 2,,,,,,,,Done
+Verify Status Field's type.,RET-94,10191,Test,Done,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,Done,,,Rajat Das,620b325df4d8af0070fca320,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 10:44 AM,18/Feb/22 3:44 PM,21/Feb/22 10:05 AM,18/Feb/22 3:44 PM,,0,"Acceptance Criteria :-
+
+1. It's Type Should be a Drop Down List.
+2. It Should contain ""Enabled"" and ""Disabled"" as Options.
+3. Only One Option Should Select.
+4. It should be ""Enabled"" by Default.",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,RET-16,,,,,,,,,,,,,{},,,,,,,0|i0015z:,,RET Sprint 2,,,,,,,,Done
+Verify the Status Field with more than one Option.,RET-93,10190,Test,Done,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,Done,,,Rajat Das,620b325df4d8af0070fca320,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 10:43 AM,18/Feb/22 3:44 PM,21/Feb/22 10:05 AM,18/Feb/22 3:44 PM,,0,"Acceptance Criteria :-
+
+1. It's Type Should be a Drop Down List.
+2. It Should contain ""Enabled"" and ""Disabled"" as Options.
+3. Only One Option Should Select.
+4. It should be ""Enabled"" by Default.",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,RET-16,,,,,,,,,,,,,{},,,,,,,0|i0015r:,,RET Sprint 2,,,,,,,,Done
+Verify that the Status Field's all options can be accessible.,RET-92,10189,Test,Done,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,Done,,,Rajat Das,620b325df4d8af0070fca320,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 10:43 AM,18/Feb/22 3:44 PM,21/Feb/22 10:05 AM,18/Feb/22 3:44 PM,,0,"Acceptance Criteria :-
+
+1. It's Type Should be a Drop Down List.
+2. It Should contain ""Enabled"" and ""Disabled"" as Options.
+3. Only One Option Should Select.
+4. It should be ""Enabled"" by Default.",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,RET-16,,,,,,,,,,,,,{},,,,,,,0|i0015j:,,RET Sprint 2,,,,,,,,Done
+Verify the Status Field has all the value as per SRS.,RET-91,10188,Test,Done,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,Done,,,Rajat Das,620b325df4d8af0070fca320,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 10:43 AM,18/Feb/22 3:44 PM,21/Feb/22 10:05 AM,18/Feb/22 3:44 PM,,0,"Acceptance Criteria :-
+
+1. It's Type Should be a Drop Down List.
+2. It Should contain ""Enabled"" and ""Disabled"" as Options.
+3. Only One Option Should Select.
+4. It should be ""Enabled"" by Default.",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,RET-16,,,,,,,,,,,,,{},,,,,,,0|i0015b:,,RET Sprint 2,,,,,,,,Done
+Verify the Status Field's Placeholder.,RET-90,10187,Test,Done,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,Done,,,Rajat Das,620b325df4d8af0070fca320,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 10:43 AM,18/Feb/22 3:44 PM,21/Feb/22 10:05 AM,18/Feb/22 3:44 PM,,0,"Acceptance Criteria :-
+
+1. It's Type Should be a Drop Down List.
+2. It Should contain ""Enabled"" and ""Disabled"" as Options.
+3. Only One Option Should Select.
+4. It should be ""Enabled"" by Default.",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,RET-16,,,,,,,,,,,,,{},,,,,,,0|i00153:,,RET Sprint 2,,,,,,,,Done
+Verify the Uses Per Customer Field's Default Value.,RET-89,10186,Test,Done,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,Done,,,Rajat Das,620b325df4d8af0070fca320,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 10:43 AM,18/Feb/22 3:44 PM,21/Feb/22 10:05 AM,18/Feb/22 3:44 PM,,0,"Acceptance Criteria :-
+
+1. It can be Between 1 and 8 Characters.
+2. Only Numeric Value allowed.
+3. No Special Character allowed.
+4. Blank Value is denoted as Unlimited.
+5. White Spaces also Not Allowed.",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,RET-16,,,,,,,,,,,,,{},,,,,,,0|i0014v:,,RET Sprint 2,,,,,,,,Done
+Verify the Uses Per Customer Field with more than 1  Digits.,RET-88,10185,Test,Done,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,Done,,,Rajat Das,620b325df4d8af0070fca320,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 10:43 AM,18/Feb/22 3:44 PM,21/Feb/22 10:05 AM,18/Feb/22 3:44 PM,,0,"Acceptance Criteria :-
+
+1. It can be Between 1 and 8 Characters.
+2. Only Numeric Value allowed.
+3. No Special Character allowed.
+4. Blank Value is denoted as Unlimited.
+5. White Spaces also Not Allowed.",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,RET-16,,,,,,,,,,,,,{},,,,,,,0|i0014n:,,RET Sprint 2,,,,,,,,Done
+Verify the Uses Per Customer Field with AlphaNumeric Character.,RET-87,10184,Test,Blocked,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,,,,Rajat Das,620b325df4d8af0070fca320,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 10:43 AM,18/Feb/22 3:42 PM,21/Feb/22 10:05 AM,,,0,"Acceptance Criteria :-
+
+1. It can be Between 1 and 8 Characters.
+2. Only Numeric Value allowed.
+3. No Special Character allowed.
+4. Blank Value is denoted as Unlimited.
+5. White Spaces also Not Allowed.",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,RET-16,,,,,,,,,,,,,{},,,,,,,0|i0014f:,,RET Sprint 2,,,,,,,,In Progress
+Verify the Uses Per Customer Field with Alphabetic Character.,RET-86,10183,Test,Blocked,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,,,,Rajat Das,620b325df4d8af0070fca320,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 10:43 AM,18/Feb/22 3:42 PM,21/Feb/22 10:05 AM,,,0,"Acceptance Criteria :-
+
+1. It can be Between 1 and 8 Characters.
+2. Only Numeric Value allowed.
+3. No Special Character allowed.
+4. Blank Value is denoted as Unlimited.
+5. White Spaces also Not Allowed.",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,RET-16,,,,,,,,,,,,,{},,,,,,,0|i00147:,,RET Sprint 2,,,,,,,,In Progress
+Verify the Uses Per Customer Field with Special Character.,RET-85,10182,Test,Blocked,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,,,,Rajat Das,620b325df4d8af0070fca320,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 10:43 AM,18/Feb/22 3:42 PM,18/Feb/22 3:31 PM,,,0,"Acceptance Criteria :-
+
+1. It can be Between 1 and 8 Characters.
+2. Only Numeric Value allowed.
+3. No Special Character allowed.
+4. Blank Value is denoted as Unlimited.
+5. White Spaces also Not Allowed.",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,RET-16,,,,,,,,,,,,,{},,,,,,,0|i0013z:,,RET Sprint 2,,,,,,,,In Progress
+Verify the Uses Per Coupon Field's Default Value.,RET-84,10181,Test,Done,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,Done,,,Rajat Das,620b325df4d8af0070fca320,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 10:43 AM,18/Feb/22 3:44 PM,21/Feb/22 10:05 AM,18/Feb/22 3:44 PM,,0,"Acceptance Criteria :-
+
+1. It can be Between 1 and 8 Characters.
+2. Only Numeric Value allowed.
+3. No Special Character allowed.
+4. Blank Value is denoted as Unlimited.
+5. White Spaces also Not Allowed.",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,RET-16,,,,,,,,,,,,,{},,,,,,,0|i0013r:,,RET Sprint 2,,,,,,,,Done
+Verify the Uses Per Coupon Field with more than 5 Digits.,RET-83,10180,Test,Done,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,Done,,,Rajat Das,620b325df4d8af0070fca320,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 10:43 AM,18/Feb/22 3:44 PM,21/Feb/22 10:05 AM,18/Feb/22 3:44 PM,,0,"Acceptance Criteria :-
+
+1. It can be Between 1 and 8 Characters.
+2. Only Numeric Value allowed.
+3. No Special Character allowed.
+4. Blank Value is denoted as Unlimited.
+5. White Spaces also Not Allowed.",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,RET-16,,,,,,,,,,,,,{},,,,,,,0|i0013j:,,RET Sprint 2,,,,,,,,Done
+Verify the Uses Per Coupon Field with AlphaNumeric Character.,RET-82,10179,Test,Done,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,Done,,,Rajat Das,620b325df4d8af0070fca320,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 10:43 AM,18/Feb/22 3:44 PM,18/Feb/22 12:50 PM,18/Feb/22 3:44 PM,,0,"Acceptance Criteria :-  
+
+1. It can be Between 1 and 8 Characters. 
+
+2. Only Numeric Value allowed. 
+
+3. Any rejected character will fill the field with “0“.",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,RET-16,,,,,,,,,,,,,{},,,,,,,0|i0013b:,,RET Sprint 2,,,,,,,,Done
+Verify the Uses Per Coupon Field with Alphabetic Character.,RET-81,10178,Test,Blocked,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,,,,Rajat Das,620b325df4d8af0070fca320,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 10:43 AM,18/Feb/22 3:42 PM,21/Feb/22 10:05 AM,,,0,"Acceptance Criteria :-
+
+1. It can be Between 1 and 8 Characters.
+2. Only Numeric Value allowed.
+3. No Special Character allowed.
+4. Blank Value is denoted as Unlimited.
+5. White Spaces also Not Allowed.",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,RET-16,,,,,,,,,,,,,{},,,,,,,0|i00133:,,RET Sprint 2,,,,,,,,In Progress
+Verify the Uses Per Coupon Field with Special Character.,RET-80,10177,Test,Blocked,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,,,,Rajat Das,620b325df4d8af0070fca320,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 10:43 AM,18/Feb/22 3:42 PM,21/Feb/22 10:05 AM,,,0,"Acceptance Criteria :-
+
+1. It can be Between 1 and 8 Characters.
+2. Only Numeric Value allowed.
+3. No Special Character allowed.
+4. Blank Value is denoted as Unlimited.
+5. White Spaces also Not Allowed.",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,RET-16,,,,,,,,,,,,,{},,,,,,,0|i0012v:,,RET Sprint 2,,,,,,,,In Progress
+Verify the Date End Field with a value earlier than Date Start.,RET-79,10176,Test,Blocked,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,,,,Rajat Das,620b325df4d8af0070fca320,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 10:43 AM,18/Feb/22 3:42 PM,18/Feb/22 12:59 PM,,,0,"Acceptance Criteria :-
+
+1. It's Field Type Should be a Date.
+2. It Should only accept in YYYY-MM-DD format.
+3. It should have a calendar beside it.
+4."" Date Start"" should be before than ""Date End"".
+5. ""Date End"" It's value should be before ""Date Start"".",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,RET-16,,,,,,,,,,,,,{},,,,,,,0|i0012n:,,RET Sprint 2,,,,,,,,In Progress
+Verify the Date Start Field with a value later than Date End.,RET-78,10175,Test,Blocked,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,,,,Rajat Das,620b325df4d8af0070fca320,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 10:43 AM,18/Feb/22 3:42 PM,21/Feb/22 10:05 AM,,,0,"Acceptance Criteria :-
+
+1. It's Field Type Should be a Date.
+2. It Should only accept in YYYY-MM-DD format.
+3. It should have a calendar beside it.
+4."" Date Start"" should be before than ""Date End"".
+5. ""Date End"" It's value should be before ""Date Start"".",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,RET-16,,,,,,,,,,,,,{},,,,,,,0|i0012f:,,RET Sprint 2,,,,,,,,In Progress
+Verify that Date Start value is earlier than Date End.,RET-77,10174,Test,Done,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,Done,,,Rajat Das,620b325df4d8af0070fca320,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 10:43 AM,18/Feb/22 3:44 PM,21/Feb/22 10:05 AM,18/Feb/22 3:44 PM,,0,"Acceptance Criteria :-
+
+1. It's Field Type Should be a Date.
+2. It Should only accept in YYYY-MM-DD format.
+3. It should have a calendar beside it.
+4."" Date Start"" should be before than ""Date End"".
+5. ""Date End"" It's value should be before ""Date Start"".",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,RET-16,,,,,,,,,,,,,{},,,,,,,0|i00127:,,RET Sprint 2,,,,,,,,Done
+Verify the Date End Field has a calender beside it.,RET-76,10173,Test,Done,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,Done,,,Rajat Das,620b325df4d8af0070fca320,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 10:43 AM,18/Feb/22 3:44 PM,21/Feb/22 10:05 AM,18/Feb/22 3:44 PM,,0,"Acceptance Criteria :-
+
+1. It's Field Type Should be a Date.
+2. It Should only accept in YYYY-MM-DD format.
+3. It should have a calendar beside it.
+4. It should have a Placeholder ""Date End"".
+5. It's value should be before ""Date Start"".",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,RET-16,,,,,,,,,,,,,{},,,,,,,0|i0011z:,,RET Sprint 2,,,,,,,,Done
+Verify that Date End Field with invalid date format.,RET-75,10172,Test,Done,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,Done,,,Rajat Das,620b325df4d8af0070fca320,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 10:43 AM,18/Feb/22 3:44 PM,21/Feb/22 10:05 AM,18/Feb/22 3:44 PM,,0,"Acceptance Criteria :-
+
+1. It's Field Type Should be a Date.
+2. It Should only accept in YYYY-MM-DD format.
+3. It should have a calendar beside it.
+4. It should have a Placeholder ""Date End"".
+5. It's value should be before ""Date Start"".",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,RET-16,,,,,,,,,,,,,{},,,,,,,0|i0011r:,,RET Sprint 2,,,,,,,,Done
+Verify the Date End Field's Type.,RET-74,10171,Test,Done,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,Done,,,Rajat Das,620b325df4d8af0070fca320,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 10:43 AM,18/Feb/22 3:44 PM,21/Feb/22 10:05 AM,18/Feb/22 3:44 PM,,0,"Acceptance Criteria :-
+
+1. It's Field Type Should be a Date.
+2. It Should only accept in YYYY-MM-DD format.
+3. It should have a calendar beside it.
+4. It should have a Placeholder ""Date End"".
+5. It's value should be before ""Date Start"".",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,RET-16,,,,,,,,,,,,,{},,,,,,,0|i0011j:,,RET Sprint 2,,,,,,,,Done
+Verify the Date Start Field has a calender beside it.,RET-73,10170,Test,Done,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,Done,,,Rajat Das,620b325df4d8af0070fca320,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 10:43 AM,18/Feb/22 3:44 PM,21/Feb/22 10:05 AM,18/Feb/22 3:44 PM,,0,"Acceptance Criteria :-
+
+1. It's Field Type Should be a Date.
+2. It Should only accept in YYYY-MM-DD format.
+3. It should have a calendar beside it.
+4. It should have a Placeholder ""Date Start"".
+5. It's value should be before ""Date End"".",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,RET-16,,,,,,,,,,,,,{},,,,,,,0|i0011b:,,RET Sprint 2,,,,,,,,Done
+Verify that Date Start Field with invalid date format.,RET-72,10169,Test,Blocked,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,,,,Rajat Das,620b325df4d8af0070fca320,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 10:43 AM,18/Feb/22 3:42 PM,21/Feb/22 10:05 AM,,,0,"Acceptance Criteria :-
+
+1. It's Field Type Should be a Date.
+2. It Should only accept in YYYY-MM-DD format.
+3. It should have a calendar beside it.
+4. It should have a Placeholder ""Date Start"".
+5. It's value should be before ""Date End"".",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,RET-16,,,,,,,,,,,,,{},,,,,,,0|i00113:,,RET Sprint 2,,,,,,,,In Progress
+Verify the Date Start Field's Type.,RET-71,10168,Test,Done,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,Done,,,Rajat Das,620b325df4d8af0070fca320,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 10:43 AM,18/Feb/22 3:44 PM,21/Feb/22 10:05 AM,18/Feb/22 3:44 PM,,0,"Acceptance Criteria :-
+
+1. It's Field Type Should be a Date.
+2. It Should only accept in YYYY-MM-DD format.
+3. It should have a calendar beside it.
+4. It should have a Placeholder ""Date Start"".
+5. It's value should be before ""Date End"".",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,RET-16,,,,,,,,,,,,,{},,,,,,,0|i0010v:,,RET Sprint 2,,,,,,,,Done
+Verify Catagory Field's type.,RET-70,10167,Test,Done,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,Done,,,Rajat Das,620b325df4d8af0070fca320,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 10:43 AM,18/Feb/22 3:44 PM,21/Feb/22 10:05 AM,18/Feb/22 3:44 PM,,0,"Acceptance Criteria :-
+
+1. It's Type Should be a Textbox.
+2. It Should Show List of Suggestion.
+3. More than one Option Can be Selected.
+4. It should have a Placeholder ""Catagory"".",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,RET-16,,,,,,,,,,,,,{},,,,,,,0|i0010n:,,RET Sprint 2,,,,,,,,Done
+Verify the Catagory Field that more than one product can be selected.,RET-69,10166,Test,Done,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,Done,,,Rajat Das,620b325df4d8af0070fca320,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 10:43 AM,18/Feb/22 3:44 PM,21/Feb/22 10:05 AM,18/Feb/22 3:44 PM,,0,"Acceptance Criteria :-
+
+1. It's Type Should be a Textbox.
+2. It Should Show List of Suggestion.
+3. More than one Option Can be Selected.
+4. It should have a Placeholder ""Catagory"".",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,RET-16,,,,,,,,,,,,,{},,,,,,,0|i0010f:,,RET Sprint 2,,,,,,,,Done
+Verify that the Catagory Field's all options can be selected.,RET-68,10165,Test,Blocked,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,,,,Rajat Das,620b325df4d8af0070fca320,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 10:42 AM,18/Feb/22 3:42 PM,21/Feb/22 10:05 AM,,,0,"Acceptance Criteria :-
+
+1. It's Type Should be a Textbox.
+2. It Should Show List of Suggestion.
+3. More than one Option Can be Selected.
+4. It should have a Placeholder ""Catagory"".",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,RET-16,,,,,,,,,,,,,{},,,,,,,0|i00107:,,RET Sprint 2,,,,,,,,In Progress
+Verify the Catagory Field has all the value as per SRS.,RET-67,10164,Test,Done,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,Done,,,Rajat Das,620b325df4d8af0070fca320,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 10:42 AM,18/Feb/22 3:44 PM,21/Feb/22 10:05 AM,18/Feb/22 3:44 PM,,0,"Acceptance Criteria :-
+
+1. It's Type Should be a Textbox.
+2. It Should Show List of Suggestion.
+3. More than one Option Can be Selected.
+4. It should have a Placeholder ""Catagory"".",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,RET-16,,,,,,,,,,,,,{},,,,,,,0|i000zz:,,RET Sprint 2,,,,,,,,Done
+Verify the Catagory Field's Placeholder.,RET-66,10163,Test,Done,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,Done,,,Rajat Das,620b325df4d8af0070fca320,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 10:42 AM,18/Feb/22 3:44 PM,21/Feb/22 10:03 AM,18/Feb/22 3:44 PM,,0,"Acceptance Criteria :-
+
+1. It's Type Should be a Textbox.
+2. It Should Show List of Suggestion.
+3. More than one Option Can be Selected.
+4. It should have a Placeholder ""Catagory"".",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,RET-16,,,,,,,,,,,,,{},,,,,,,0|i000zr:,,RET Sprint 2,,,,,,,,Done
+Verify Product Field's type.,RET-65,10162,Test,Done,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,Done,,,Rajat Das,620b325df4d8af0070fca320,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 10:42 AM,18/Feb/22 3:44 PM,21/Feb/22 9:57 AM,18/Feb/22 3:44 PM,,0,"Acceptance Criteria :-
+
+1. It's Type Should be a Textbox.
+2. It Should Show List of Suggestion.
+3. More than one Option Can be Selected.
+4. It should have a Placeholder ""Products"".",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,RET-16,,,,,,,,,,,,,{},,,,,,,0|i000zj:,,RET Sprint 2,,,,,,,,Done
+Verify the Products Field that more than one product can be selected.,RET-64,10161,Test,Done,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,Done,,,Rajat Das,620b325df4d8af0070fca320,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 10:42 AM,18/Feb/22 3:44 PM,21/Feb/22 10:05 AM,18/Feb/22 3:44 PM,,0,"Acceptance Criteria :-
+
+1. It's Type Should be a Textbox.
+2. It Should Show List of Suggestion.
+3. More than one Option Can be Selected.
+4. It should have a Placeholder ""Products"".",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,RET-16,,,,,,,,,,,,,{},,,,,,,0|i000zb:,,RET Sprint 2,,,,,,,,Done
+Verify that the Products Field's all options can be selected.,RET-63,10160,Test,Blocked,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,,,,Rajat Das,620b325df4d8af0070fca320,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 10:42 AM,18/Feb/22 3:42 PM,21/Feb/22 10:05 AM,,,0,"Acceptance Criteria :-
+
+1. It's Type Should be a Textbox.
+2. It Should Show List of Suggestion.
+3. More than one Option Can be Selected.
+4. It should have a Placeholder ""Products"".",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,RET-16,,,,,,,,,,,,,{},,,,,,,0|i000z3:,,RET Sprint 2,,,,,,,,In Progress
+Verify the Products Field has all the Suggestion as per SRS.,RET-62,10159,Test,Done,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,Done,,,Rajat Das,620b325df4d8af0070fca320,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 10:42 AM,18/Feb/22 3:44 PM,21/Feb/22 10:05 AM,18/Feb/22 3:44 PM,,0,"Acceptance Criteria :-
+
+1. It's Type Should be a Textbox.
+2. It Should Show List of Suggestion.
+3. More than one Option Can be Selected.
+4. It should have a Placeholder ""Products"".",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,RET-16,,,,,,,,,,,,,{},,,,,,,0|i000yv:,,RET Sprint 2,,,,,,,,Done
+Verify the Products Field's Placeholder.,RET-61,10158,Test,Done,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,Done,,,Rajat Das,620b325df4d8af0070fca320,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 10:42 AM,18/Feb/22 3:44 PM,21/Feb/22 10:05 AM,18/Feb/22 3:44 PM,,0,"Acceptance Criteria :-
+
+1. It's Type Should be a Textbox.
+2. It Should Show List of Suggestion.
+3. More than one Option Can be Selected.
+4. It should have a Placeholder ""Products"".",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,RET-16,,,,,,,,,,,,,{},,,,,,,0|i000yn:,,RET Sprint 2,,,,,,,,Done
+Verify the Free Shipping Field that only one option is selected.,RET-60,10157,Test,Done,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,Done,,,Rajat Das,620b325df4d8af0070fca320,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 10:42 AM,18/Feb/22 3:44 PM,21/Feb/22 10:05 AM,18/Feb/22 3:44 PM,,0,"Acceptance Criteria :-
+
+1. It's Type Should be a Radio Button.
+2. It Should contain Yes and No as Options.
+3. Only One Option Should Select.
+4. It should be No by Default.",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,RET-16,,,,,,,,,,,,,{},,,,,,,0|i000yf:,,RET Sprint 2,,,,,,,,Done
+Verify the Free Shipping Field's Default Value.,RET-59,10156,Test,Done,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,Done,,,Rajat Das,620b325df4d8af0070fca320,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 10:42 AM,18/Feb/22 3:44 PM,21/Feb/22 10:05 AM,18/Feb/22 3:44 PM,,0,"Acceptance Criteria :-
+
+1. It's Type Should be a Radio Button.
+2. It Should contain Yes and No as Options.
+3. Only One Option Should Select.
+4. It should be No by Default.",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,RET-16,,,,,,,,,,,,,{},,,,,,,0|i000y7:,,RET Sprint 2,,,,,,,,Done
+Verify the Free Shipping Field's Type.,RET-58,10155,Test,Done,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,Done,,,Rajat Das,620b325df4d8af0070fca320,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 10:42 AM,18/Feb/22 3:44 PM,21/Feb/22 10:05 AM,18/Feb/22 3:44 PM,,0,"Acceptance Criteria :-
+
+1. It's Type Should be a Radio Button.
+2. It Should contain Yes and No as Options.
+3. Only One Option Should Select.
+4. It should be No by Default.",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,RET-16,,,,,,,,,,,,,{},,,,,,,0|i000xz:,,RET Sprint 2,,,,,,,,Done
+Verify the Customer Login Field that only one option is selected.,RET-57,10154,Test,Done,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,Done,,,Rajat Das,620b325df4d8af0070fca320,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 10:42 AM,18/Feb/22 3:44 PM,21/Feb/22 10:05 AM,18/Feb/22 3:44 PM,,0,"Acceptance Criteria :-
+
+1. It's Type Should be a Radio Button.
+2. It Should contain Yes and No as Options.
+3. Only One Option Should Select.
+4. It should be No by Default.",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,RET-16,,,,,,,,,,,,,{},,,,,,,0|i000xr:,,RET Sprint 2,,,,,,,,Done
+Verify the Customer Login Field's Default Value.,RET-56,10153,Test,Done,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,Done,,,Rajat Das,620b325df4d8af0070fca320,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 10:42 AM,18/Feb/22 3:44 PM,21/Feb/22 10:05 AM,18/Feb/22 3:44 PM,,0,"Acceptance Criteria :-
+
+1. It's Type Should be a Radio Button.
+2. It Should contain Yes and No as Options.
+3. Only One Option Should Select.
+4. It should be No by Default.",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,RET-16,,,,,,,,,,,,,{},,,,,,,0|i000xj:,,RET Sprint 2,,,,,,,,Done
+Verify the Customer Login Field's Type.,RET-55,10152,Test,Done,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,Done,,,Rajat Das,620b325df4d8af0070fca320,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 10:42 AM,18/Feb/22 3:44 PM,21/Feb/22 10:05 AM,18/Feb/22 3:44 PM,,0,"Acceptance Criteria :-
+
+1. It's Type Should be a Radio Button.
+2. It Should contain Yes and No as Options.
+3. Only One Option Should Select.
+4. It should be No by Default.",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,RET-16,,,,,,,,,,,,,{},,,,,,,0|i000xb:,,RET Sprint 2,,,,,,,,Done
+Verify the Total Amount Field's Placeholder.,RET-54,10151,Test,Done,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,Done,,,Rajat Das,620b325df4d8af0070fca320,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 10:42 AM,18/Feb/22 3:44 PM,21/Feb/22 10:05 AM,18/Feb/22 3:44 PM,,0,"Acceptance Criteria :-
+
+1. It Must be Between 1 and 8 Characters.
+2. Only Numeric Value allowed.
+3. No Special Character allowed.
+4. No Blank Value.
+5. White Spaces also Not Allowed.
+6. Can not be Blank.
+7. It should have a PlaceHolder ""Total Amount""",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,RET-16,,,,,,,,,,,,,{},,,,,,,0|i000x3:,,RET Sprint 2,,,,,,,,Done
+Verify the Total Amount Field with Blank Value.,RET-53,10150,Test,Done,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,Done,,,Rajat Das,620b325df4d8af0070fca320,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 10:42 AM,18/Feb/22 3:44 PM,21/Feb/22 10:05 AM,18/Feb/22 3:44 PM,,0,"Acceptance Criteria :-
+
+1. It Must be Between 1 and 8 Characters.
+2. Only Numeric Value allowed.
+3. No Special Character allowed.
+4. No Blank Value.
+5. White Spaces also Not Allowed.
+6. Can not be Blank.
+7. It should have a PlaceHolder ""Total Amount""",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,RET-16,,,,,,,,,,,,,{},,,,,,,0|i000wv:,,RET Sprint 2,,,,,,,,Done
+Verify the Total Amount Field with White Spaces.,RET-52,10149,Test,Done,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,Done,,,Rajat Das,620b325df4d8af0070fca320,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 10:42 AM,18/Feb/22 3:44 PM,21/Feb/22 10:05 AM,18/Feb/22 3:44 PM,,0,"Acceptance Criteria :-
+
+1. It Must be Between 1 and 8 Characters.
+2. Only Numeric Value allowed.
+3. No Special Character allowed.
+4. No Blank Value.
+5. White Spaces also Not Allowed.
+6. Can not be Blank.
+7. It should have a PlaceHolder ""Total Amount""",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,RET-16,,,,,,,,,,,,,{},,,,,,,0|i000wn:,,RET Sprint 2,,,,,,,,Done
+Verify the Total Amount Field with More than 8 Number.,RET-51,10148,Test,Blocked,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,,,,Rajat Das,620b325df4d8af0070fca320,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 10:42 AM,18/Feb/22 3:42 PM,21/Feb/22 10:05 AM,,,0,"Acceptance Criteria :-
+
+1. It Must be Between 1 and 8 Characters.
+2. Only Numeric Value allowed.
+3. No Special Character allowed.
+4. No Blank Value.
+5. White Spaces also Not Allowed.
+6. Can not be Blank.
+7. It should have a PlaceHolder ""Total Amount""",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,RET-16,,,,,,,,,,,,,{},,,,,,,0|i000wf:,,RET Sprint 2,,,,,,,,In Progress
+Verify the Total Amount Field with Character.,RET-50,10147,Test,Done,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,Done,,,Rajat Das,620b325df4d8af0070fca320,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 10:42 AM,18/Feb/22 3:44 PM,21/Feb/22 10:05 AM,18/Feb/22 3:44 PM,,0,"Acceptance Criteria :-
+
+1. It Must be Between 1 and 8 Characters.
+2. Only Numeric Value allowed.
+3. No Special Character allowed.
+4. No Blank Value.
+5. White Spaces also Not Allowed.
+6. Can not be Blank.
+7. It should have a PlaceHolder ""Total Amount""",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,RET-16,,,,,,,,,,,,,{},,,,,,,0|i000w7:,,RET Sprint 2,,,,,,,,Done
+Verify the Total Amount Field with Special Character.,RET-49,10146,Test,Done,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,Done,,,Rajat Das,620b325df4d8af0070fca320,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 10:42 AM,18/Feb/22 3:44 PM,18/Feb/22 1:02 PM,18/Feb/22 3:44 PM,,0,"Acceptance Criteria :-
+
+1. It Must be Between 1 and 8 Characters.
+2. Only Numeric Value allowed.
+3. No Special Character allowed.
+4. No Blank Value.
+5. White Spaces also Not Allowed.
+6. Can not be Blank.
+7. It should have a PlaceHolder ""Total Amount""",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,RET-16,,,,,,,,,,,,,{},,,,,,,0|i000vz:,,RET Sprint 2,,,,,,,,Done
+Verify the Discount Field with White Spaces.,RET-48,10145,Test,Done,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,Done,,,Rajat Das,620b325df4d8af0070fca320,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 10:42 AM,18/Feb/22 3:44 PM,21/Feb/22 10:05 AM,18/Feb/22 3:44 PM,,0,"Acceptance Criteria :-
+
+1. It Must be Between 1 and 4 Characters.
+2. Only Numeric Value allowed.
+3. No Special Character allowed.
+4. No Blank Value.
+5. Only White Spaces also Not Allowed.
+6. It should have a placeholder ""Discount.""",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,RET-16,,,,,,,,,,,,,{},,,,,,,0|i000vr:,,RET Sprint 2,,,,,,,,Done
+Verify the Discount Field with Blank Value.,RET-47,10144,Test,Done,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,Done,,,Rajat Das,620b325df4d8af0070fca320,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 10:42 AM,18/Feb/22 3:44 PM,21/Feb/22 10:05 AM,18/Feb/22 3:44 PM,,0,"Acceptance Criteria :-
+
+1. It Must be Between 1 and 4 Characters.
+2. Only Numeric Value allowed.
+3. No Special Character allowed.
+4. No Blank Value.
+5. Only White Spaces also Not Allowed.
+6. It should have a placeholder ""Discount.""",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,RET-16,,,,,,,,,,,,,{},,,,,,,0|i000vj:,,RET Sprint 2,,,,,,,,Done
+Verify the Discount Field's Placeholder.,RET-46,10143,Test,Done,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,Done,,,Rajat Das,620b325df4d8af0070fca320,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 10:42 AM,18/Feb/22 3:44 PM,21/Feb/22 10:05 AM,18/Feb/22 3:44 PM,,0,"Acceptance Criteria :-
+
+1. It Must be Between 1 and 4 Characters.
+2. Only Numeric Value allowed.
+3. No Special Character allowed.
+4. No Blank Value.
+5. Only White Spaces also Not Allowed.
+6. It should have a placeholder ""Discount.""",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,RET-16,,,,,,,,,,,,,{},,,,,,,0|i000vb:,,RET Sprint 2,,,,,,,,Done
+Verify the Discount Field with More than 5 Number.,RET-45,10142,Test,Blocked,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,,,,Rajat Das,620b325df4d8af0070fca320,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 10:42 AM,18/Feb/22 3:42 PM,21/Feb/22 10:05 AM,,,0,"Acceptance Criteria :-
+
+1. It Must be Between 1 and 4 Characters.
+2. Only Numeric Value allowed.
+3. No Special Character allowed.
+4. No Blank Value.
+5. Only White Spaces also Not Allowed.
+6. It should have a placeholder ""Discount.""",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,RET-16,,,,,,,,,,,,,{},,,,,,,0|i000v3:,,RET Sprint 2,,,,,,,,In Progress
+Verify the Discount Field with only Letter.,RET-44,10141,Test,Done,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,Done,,,Rajat Das,620b325df4d8af0070fca320,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 10:42 AM,18/Feb/22 3:44 PM,21/Feb/22 10:05 AM,18/Feb/22 3:44 PM,,0,"Acceptance Criteria :-
+
+1. It Must be Between 1 and 4 Characters.
+2. Only Numeric Value allowed.
+3. No Special Character allowed.
+4. No Blank Value.
+5. Only White Spaces also Not Allowed.
+6. It should have a placeholder ""Discount.""",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,RET-16,,,,,,,,,,,,,{},,,,,,,0|i000uv:,,RET Sprint 2,,,,,,,,Done
+Verify the Discount Field with Special Characters.,RET-43,10140,Test,Done,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,Done,,,Rajat Das,620b325df4d8af0070fca320,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 10:42 AM,18/Feb/22 3:44 PM,21/Feb/22 10:05 AM,18/Feb/22 3:44 PM,,0,"Acceptance Criteria :-
+
+1. It Must be Between 1 and 4 Characters.
+2. Only Numeric Value allowed.
+3. No Special Character allowed.
+4. No Blank Value.
+5. Only White Spaces also Not Allowed.
+6. It should have a placeholder ""Discount.""",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,RET-16,,,,,,,,,,,,,{},,,,,,,0|i000un:,,RET Sprint 2,,,,,,,,Done
+Verify the Type Field has all the Values as per SRS.,RET-42,10139,Test,Done,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,Done,,,Rajat Das,620b325df4d8af0070fca320,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 10:42 AM,18/Feb/22 3:44 PM,21/Feb/22 10:05 AM,18/Feb/22 3:44 PM,,0,"Acceptance Criteria :-
+
+1. It's Type Should be a Drop Down List.
+2. It Should contain Percentage and Fixed Amount as Options.
+3. Only One Option Should Select.
+4. It should be Percentage by Default.",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,RET-16,,,,,,,,,,,,,{},,,,,,,0|i000uf:,,RET Sprint 2,,,,,,,,Done
+Verify The Type Field's Default value.,RET-41,10138,Test,Done,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,Done,,,Rajat Das,620b325df4d8af0070fca320,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 10:41 AM,18/Feb/22 3:44 PM,21/Feb/22 10:05 AM,18/Feb/22 3:44 PM,,0,"Acceptance Criteria :-
+
+1. It's Type Should be a Drop Down List.
+2. It Should contain Percentage and Fixed Amount as Options.
+3. Only One Option Should Select.
+4. It should be Percentage by Default.",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,RET-16,,,,,,,,,,,,,{},,,,,,,0|i000u7:,,RET Sprint 2,,,,,,,,Done
+Verify that All the Options in Type Field are accessible.,RET-40,10137,Test,Done,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,Done,,,Rajat Das,620b325df4d8af0070fca320,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 10:41 AM,18/Feb/22 3:44 PM,21/Feb/22 10:05 AM,18/Feb/22 3:44 PM,,0,"Acceptance Criteria :-
+
+1. It's Type Should be a Drop Down List.
+2. It Should contain Percentage and Fixed Amount as Options.
+3. Only One Option Should Select.
+4. It should be Percentage by Default.",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,RET-16,,,,,,,,,,,,,{},,,,,,,0|i000tz:,,RET Sprint 2,,,,,,,,Done
+Verify The Type Field's type.,RET-39,10136,Test,Done,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,Done,,,Rajat Das,620b325df4d8af0070fca320,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 10:41 AM,18/Feb/22 3:44 PM,21/Feb/22 10:05 AM,18/Feb/22 3:44 PM,,0,"Acceptance Criteria :-
+
+1. It's Type Should be a Drop Down List.
+2. It Should contain Percentage and Fixed Amount as Options.
+3. Only One Option Should Select.
+4. It should be Percentage by Default.",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,RET-16,,,,,,,,,,,,,{},,,,,,,0|i000tr:,,RET Sprint 2,,,,,,,,Done
+Verify the Code Field's Placeholder.,RET-38,10135,Test,Done,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,Done,,,Rajat Das,620b325df4d8af0070fca320,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 10:41 AM,18/Feb/22 3:44 PM,21/Feb/22 10:05 AM,18/Feb/22 3:44 PM,,0,"It Should be ""Code"".",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,RET-16,,,,,,,,,,,,,{},,,,,,,0|i000tj:,,RET Sprint 2,,,,,,,,Done
+Verify the Code Field with Special Characters.,RET-37,10134,Test,Done,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,Done,,,Rajat Das,620b325df4d8af0070fca320,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 10:41 AM,18/Feb/22 3:44 PM,21/Feb/22 10:05 AM,18/Feb/22 3:44 PM,,0,"Acceptance Criteria :-
+
+1. It Must be Between 3 and 10 Characters.
+2. It can be AlphaNumeric, Only Alphabets,  Only Numeric, Special Characters.
+3. No Blank Value.
+4. Only White Spaces also Not Allowed.",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,RET-16,,,,,,,,,,,,,{},,,,,,,0|i000tb:,,RET Sprint 2,,,,,,,,Done
+Verify the Code Field with only Letter.,RET-36,10133,Test,Done,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,Done,,,Rajat Das,620b325df4d8af0070fca320,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 10:41 AM,18/Feb/22 3:44 PM,21/Feb/22 10:05 AM,18/Feb/22 3:44 PM,,0,"Acceptance Criteria :-
+
+1. It Must be Between 3 and 10 Characters.
+2. It can be AlphaNumeric, Only Alphabets,  Only Numeric, Special Characters.
+3. No Blank Value.
+4. Only White Spaces also Not Allowed.",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,RET-16,,,,,,,,,,,,,{},,,,,,,0|i000t3:,,RET Sprint 2,,,,,,,,Done
+Verify the Code Field with only Numeric Character.,RET-35,10132,Test,Done,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,Done,,,Rajat Das,620b325df4d8af0070fca320,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 10:41 AM,18/Feb/22 3:44 PM,21/Feb/22 10:05 AM,18/Feb/22 3:44 PM,,0,"Acceptance Criteria :-
+
+1. It Must be Between 3 and 10 Characters.
+2. It can be AlphaNumeric, Only Alphabets,  Only Numeric, Special Characters.
+3. No Blank Value.
+4. Only White Spaces also Not Allowed.",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,RET-16,,,,,,,,,,,,,{},,,,,,,0|i000sv:,,RET Sprint 2,,,,,,,,Done
+Verify the Code Field with 6 AlphaNumeric Character.,RET-34,10131,Test,Done,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,Done,,,Rajat Das,620b325df4d8af0070fca320,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 10:41 AM,18/Feb/22 3:44 PM,21/Feb/22 10:05 AM,18/Feb/22 3:44 PM,,0,"Acceptance Criteria :-
+
+1. It Must be Between 3 and 10 Characters.
+2. It can be AlphaNumeric, Only Alphabets,  Only Numeric, Special Characters.
+3. No Blank Value.
+4. Only White Spaces also Not Allowed.",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,RET-16,,,,,,,,,,,,,{},,,,,,,0|i000sn:,,RET Sprint 2,,,,,,,,Done
+Verify the Code Field with less than 3 AlphaNumeric Character.,RET-33,10130,Test,Done,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,Done,,,Rajat Das,620b325df4d8af0070fca320,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 10:41 AM,18/Feb/22 3:44 PM,21/Feb/22 10:05 AM,18/Feb/22 3:44 PM,,0,"Acceptance Criteria :-
+
+1. It Must be Between 3 and 10 Characters.
+2. It can be AlphaNumeric, Only Alphabets,  Only Numeric, Special Characters.
+3. No Blank Value.
+4. Only White Spaces also Not Allowed.",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,RET-16,,,,,,,,,,,,,{},,,,,,,0|i000sf:,,RET Sprint 2,,,,,,,,Done
+Verify the Code Field with more than 10 AlphaNumeric Character.,RET-32,10129,Test,Done,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,Done,,,Rajat Das,620b325df4d8af0070fca320,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 10:41 AM,18/Feb/22 3:44 PM,21/Feb/22 10:05 AM,18/Feb/22 3:44 PM,,0,"Acceptance Criteria :-
+
+1. It Must be Between 3 and 10 Characters.
+2. It can be AlphaNumeric, Only Alphabets,  Only Numeric, Special Characters.
+3. No Blank Value.
+4. Only White Spaces also Not Allowed.",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,RET-16,,,,,,,,,,,,,{},,,,,,,0|i000s7:,,RET Sprint 2,,,,,,,,Done
+Verify The Code Field with Blank Value.,RET-31,10128,Test,Done,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,Done,,,Rajat Das,620b325df4d8af0070fca320,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 10:41 AM,18/Feb/22 3:44 PM,21/Feb/22 10:05 AM,18/Feb/22 3:44 PM,,0,"Acceptance Criteria :-
+
+1. It Must be Between 3 and 10 Characters.
+2. It can be AlphaNumeric, Only Alphabets,  Only Numeric, Special Characters.
+3. No Blank Value.
+4. Only White Spaces also Not Allowed.",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,RET-16,,,,,,,,,,,,,{},,,,,,,0|i000rz:,,RET Sprint 2,,,,,,,,Done
+Verify The Code Field with White Space.,RET-30,10127,Test,Done,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,Done,,,Rajat Das,620b325df4d8af0070fca320,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 10:41 AM,18/Feb/22 3:44 PM,21/Feb/22 10:05 AM,18/Feb/22 3:44 PM,,0,"Acceptance Criteria :-
+
+1. It Must be Between 3 and 10 Characters.
+2. It can be AlphaNumeric, Only Alphabets,  Only Numeric, Special Characters.
+3. No Blank Value.
+4. Only White Spaces also Not Allowed.",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,RET-16,,,,,,,,,,,,,{},,,,,,,0|i000rr:,,RET Sprint 2,,,,,,,,Done
+Verify the Coupon Name Field's Placeholder.,RET-29,10126,Test,Done,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,Done,,,Rajat Das,620b325df4d8af0070fca320,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 10:41 AM,18/Feb/22 3:44 PM,21/Feb/22 10:05 AM,18/Feb/22 3:44 PM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,RET-16,,,,,,,,,,,,,{},,,,,,,0|i000rj:,,RET Sprint 2,,,,,,,,Done
+Verify the Coupon Name Field with only Numeric Character.,RET-28,10125,Test,Done,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,Done,,,Rajat Das,620b325df4d8af0070fca320,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 10:41 AM,18/Feb/22 3:44 PM,18/Feb/22 12:53 PM,18/Feb/22 3:44 PM,,0,"Acceptance Criteria :-
+
+1. It Must be Between 3 and 128 Characters.
+2. It can be AlphaNumeric Only Alphabets,  Only Numeric.
+3. No Special Character allowed.
+4. No Blank Value.
+5. Only White Spaces also Not Allowed.",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,RET-16,,,,,,,,,,,,,{},,,,,,,0|i000rb:,,RET Sprint 2,,,,,,,,Done
+Verify the Coupon Name Field with Special Characters.,RET-27,10124,Test,Done,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,Done,,,Rajat Das,620b325df4d8af0070fca320,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 10:41 AM,18/Feb/22 3:44 PM,21/Feb/22 10:05 AM,18/Feb/22 3:44 PM,,0,"Acceptance Criteria :-
+
+1. It Must be Between 3 and 128 Characters.
+2. It can be AlphaNumeric Only Alphabets,  Only Numeric.
+3. No Special Character allowed.
+4. No Blank Value.
+5. Only White Spaces also Not Allowed.",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,RET-16,,,,,,,,,,,,,{},,,,,,,0|i000r3:,,RET Sprint 2,,,,,,,,Done
+Verify the Coupon Name Field with more than 5 Characters.,RET-26,10123,Test,Done,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,Done,,,Rajat Das,620b325df4d8af0070fca320,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 10:41 AM,18/Feb/22 3:44 PM,21/Feb/22 10:05 AM,18/Feb/22 3:44 PM,,0,"Acceptance Criteria :-
+
+1. It Must be Between 3 and 128 Characters.
+2. It can be AlphaNumeric Only Alphabets,  Only Numeric.
+3. No Special Character allowed.
+4. No Blank Value.
+5. Only White Spaces also Not Allowed.",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,RET-16,,,,,,,,,,,,,{},,,,,,,0|i000qv:,,RET Sprint 2,,,,,,,,Done
+Verify the Coupon Name Field with less than 3 Characters.,RET-25,10122,Test,Done,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,Done,,,Rajat Das,620b325df4d8af0070fca320,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 10:41 AM,18/Feb/22 3:44 PM,21/Feb/22 10:05 AM,18/Feb/22 3:44 PM,,0,"Acceptance Criteria :-
+
+1. It Must be Between 3 and 128 Characters.
+2. It can be AlphaNumeric Only Alphabets,  Only Numeric.
+3. No Special Character allowed.
+4. No Blank Value.
+5. Only White Spaces also Not Allowed.",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,RET-16,,,,,,,,,,,,,{},,,,,,,0|i000qn:,,RET Sprint 2,,,,,,,,Done
+Verify the Coupon Name Field with more than 128 Characters.,RET-24,10121,Test,Done,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,Done,,,Rajat Das,620b325df4d8af0070fca320,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 10:41 AM,18/Feb/22 3:44 PM,21/Feb/22 10:05 AM,18/Feb/22 3:44 PM,,0,"Acceptance Criteria :-
+
+1. It Must be Between 3 and 128 Characters.
+2. It can be AlphaNumeric Only Alphabets,  Only Numeric.
+3. No Special Character allowed.
+4. No Blank Value.
+5. Only White Spaces also Not Allowed.",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,RET-16,,,,,,,,,,,,,{},,,,,,,0|i000qf:,,RET Sprint 2,,,,,,,,Done
+Verify the Coupon Name Field with Blank Value.,RET-23,10120,Test,Done,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,Done,,,Rajat Das,620b325df4d8af0070fca320,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 10:41 AM,18/Feb/22 3:44 PM,21/Feb/22 10:05 AM,18/Feb/22 3:44 PM,,0,"Acceptance Criteria :-
+
+1. It Must be Between 3 and 128 Characters.
+2. It can be AlphaNumeric Only Alphabets,  Only Numeric.
+3. No Special Character allowed.
+4. No Blank Value.
+5. Only White Spaces also Not Allowed.",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,RET-16,,,,,,,,,,,,,{},,,,,,,0|i000q7:,,RET Sprint 2,,,,,,,,Done
+Verify the Coupon Name Field with White Space.,RET-22,10119,Test,Done,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,Done,,,Rajat Das,620b325df4d8af0070fca320,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 10:41 AM,18/Feb/22 3:44 PM,21/Feb/22 10:05 AM,18/Feb/22 3:44 PM,,0,"Acceptance Criteria :-
+
+1. It Must be Between 3 and 128 Characters.
+2. It can be AlphaNumeric Only Alphabets,  Only Numeric.
+3. No Special Character allowed.
+4. No Blank Value.
+5. Only White Spaces also Not Allowed.",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,RET-16,,,,,,,,,,,,,{},,,,,,,0|i000pz:,,RET Sprint 2,,,,,,,,Done
+Verify mass deleting of Coupons.,RET-21,10118,Test,Done,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,Done,,,Rajat Das,620b325df4d8af0070fca320,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 10:41 AM,18/Feb/22 3:44 PM,21/Feb/22 10:05 AM,18/Feb/22 3:44 PM,,0,Click on the Select All Checkbox or individually for mass Deleting.,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,RET-16,,,,,,,,,,,,,{},,,,,,,0|i000oq:i,,RET Sprint 2,,,,,,,,Done
+Verify the Checkboxes.,RET-20,10117,Test,Done,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,Done,,,Rajat Das,620b325df4d8af0070fca320,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 10:41 AM,18/Feb/22 3:44 PM,18/Feb/22 11:24 AM,18/Feb/22 3:44 PM,,0,Verify the Checkboxes that It's Clickable or Not. For Single or more than one entries.,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,RET-16,,,,,,,,,,,,,{},,,,,,,0|i000oq:,,RET Sprint 2,,,,,,,,Done
+Verify the Add New Button.,RET-19,10116,Test,Done,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,Done,,,Rajat Das,620b325df4d8af0070fca320,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 10:41 AM,18/Feb/22 3:44 PM,18/Feb/22 11:27 AM,18/Feb/22 3:44 PM,,0,Verify the Add New Button that it redirect to the Add Coupon page.,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,RET-16,,,,,,,,,,,,,{},,,,,,,0|i000op:,,RET Sprint 2,,,,,,,,Done
+Verify the Edit Button.,RET-18,10115,Test,Done,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,Done,,,Rajat Das,620b325df4d8af0070fca320,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 10:41 AM,18/Feb/22 3:44 PM,18/Feb/22 12:23 PM,18/Feb/22 3:44 PM,,0,Verify the Edit Button that it redirect to the edit page.,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,0|i000oo:,,RET Sprint 2,,,,,,,,Done
+Verify The Delete Button.,RET-17,10114,Test,Done,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,Done,,,Rajat Das,620b325df4d8af0070fca320,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 10:41 AM,18/Feb/22 3:44 PM,18/Feb/22 10:58 AM,18/Feb/22 3:44 PM,,0,Verify The Delete Button with single or more than one entries.,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,RET-16,,,,,,,,,,,,,{},,,,,,,0|i000p1:,,RET Sprint 2,,,,,,,,Done
+Verify The Coupon Section.,RET-16,10113,Story,Done,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,Done,,,Rajat Das,620b325df4d8af0070fca320,Rajat Das,620b325df4d8af0070fca320,18/Feb/22 10:33 AM,18/Feb/22 3:55 PM,18/Feb/22 12:25 PM,18/Feb/22 3:37 PM,,0,"Steps :- 
+
+# Marketing.
+#  Coupon.",,Rajat Das,620b325df4d8af0070fca320,,,,,,,,,,,RET-18,RET-137,RET-138,RET-139,RET-140,RET-141,RET-142,,,,,,,{},,,,,,,0|i000ol:,,RET Sprint 2,,,,,,,,Done
+Verify the Customer Order Report Section.,RET-15,10112,Story,Done,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,Done,,,Rajat Das,620b325df4d8af0070fca320,Rajat Das,620b325df4d8af0070fca320,18/Feb/22 10:31 AM,18/Feb/22 3:37 PM,18/Feb/22 12:26 PM,18/Feb/22 3:37 PM,,0,"Steps :- 
+
+# Report.
+#  Customer.
+#  Order.",,Rajat Das,620b325df4d8af0070fca320,,,,,,,,,,,RET-135,,,,,,,,,,,,,{},,,,,,,0|i000of:,,RET Sprint 2,,,,,,,,Done
+Drop Down menu for Catagories in Coupon isn't working.,RET-12,10011,Bug,To Do,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,,,,Rajat Das,620b325df4d8af0070fca320,Rajat Das,620b325df4d8af0070fca320,15/Feb/22 2:27 PM,18/Feb/22 3:55 PM,18/Feb/22 3:54 PM,,,0,"h1. Drop Down menu for Catagory in Coupon isn't working.
+
+Steps To Reproduce
+
+# Navigate to the application’s Marketing section.
+# Click on edit for any previous added Coupons.
+# Click on Catagory to see the Drop Down menu.
+# Click on 2nd option “AirConditionLG“.
+
+Expected Result
+
+LG TV should be selected upon clicking the option.
+
+Actual Result
+
+Nothing happens
+
+Screenshot
+
+!image-20220215-085622.png|width=718,height=214!",,Rajat Das,620b325df4d8af0070fca320,,,,,,,,,RET-68,RET-16,RET-68,,,,,,,15/Feb/22 2:27 PM;ug:03f44e7f-288d-4758-8be1-ab7cb4280380;image-20220215-085622.png;https://ibmhaldia6.atlassian.net/secure/attachment/10002/image-20220215-085622.png,,,,,,{},,,,,,,0|i00021:,,RET Sprint 2,,,,,,,,To Do
+Drop Down menu for product in Coupon isn't working.,RET-11,10010,Bug,To Do,RET,Retail,software,Rajat Das,620b325df4d8af0070fca320,,Medium,,,,Rajat Das,620b325df4d8af0070fca320,Rajat Das,620b325df4d8af0070fca320,15/Feb/22 2:17 PM,18/Feb/22 3:55 PM,18/Feb/22 3:46 PM,,,0,"h1. Drop Down menu for product in Coupon isn't working.
+
+Steps To Reproduce 
+
+# Navigate to the application’s Marketing section.
+# Click on edit for any previous added Coupons.
+# Click on Product to see the Drop Down menu.
+# Click on 2nd option “AirConditionLG“.
+
+Expected Result
+
+AirConditionLG should be selected upon clicking the option.
+
+Actual Result 
+
+Nothing happens
+
+Screenshot
+
+!image-20220215-085243.png|width=602,height=224!",,Rajat Das,620b325df4d8af0070fca320,,,,,,,,,RET-63,,RET-63,,,,,,,15/Feb/22 2:22 PM;ug:03f44e7f-288d-4758-8be1-ab7cb4280380;image-20220215-085243.png;https://ibmhaldia6.atlassian.net/secure/attachment/10001/image-20220215-085243.png,,,,,,{},,,,,,,0|i00020:,,RET Sprint 2,,,,,,,,To Do
